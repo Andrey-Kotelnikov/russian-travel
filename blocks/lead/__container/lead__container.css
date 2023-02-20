@@ -1,0 +1,15 @@
+.lead__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+.lead__container {
+  padding: 0;
+  }
+}
