@@ -10,46 +10,33 @@
 
 @media (max-width: 1024px) {
   .place {
-    grid-template: 1fr auto / 440px 1fr;
-    grid-template-areas: 
-    "title website"
-    "image description";
+    grid-template-columns: 440px 1fr;
     gap: 48px 32px;
   }
 }
 
 @media (max-width: 1020px) {
   .place {
-    grid-template: 1fr auto / minmax(340px, 1fr) 1fr;
-    grid-template-areas: 
-    "title website"
-    "image description";
+    grid-template-columns: minmax(340px, 1fr) 1fr;
   }
 }
 
 @media (max-width: 768px) {
   .place {
-    grid-template: 1fr auto / 340px 1fr;
-    grid-template-areas: 
-    "title website"
-    "image description";
+    grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
 }
 
 @media (max-width: 750px) {
   .place {
-    grid-template: 1fr auto / 1fr 1fr;
-    grid-template-areas: 
-    "title website"
-    "image description";
-    gap: 48px 28px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 600px) {
   .place {
-    grid-template: auto auto auto auto / 1fr;
+    grid-template: repeat(4, auto) / 1fr;
     grid-template-areas:
     "title"
     "website"

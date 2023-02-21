@@ -1,13 +1,9 @@
 .intro {
   display: flex;
   flex-direction: column;
-  padding: 92px 148px;
-}
-
-@media (max-width: 1024px) {
-  .intro {
-    padding: 92px 48px;
-  }
+  padding: 92px 48px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
